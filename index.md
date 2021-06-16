@@ -30,7 +30,7 @@ For more details see [GitHub Flavored Markdown](https://guides.github.com/featur
 
 ### Jekyll Themes
 
-[Education](https://github.com/SMUAbdullah/smuabdullah.github.io/blob/main/Education)
+[Education](https://github.com/SMUAbdullah/smuabdullah.github.io/blob/main/Education.md)
 
 ### Support or Contact
 
