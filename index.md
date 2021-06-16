@@ -32,7 +32,7 @@ For more details see [GitHub Flavored Markdown](https://guides.github.com/featur
 
 [Education](https://github.com/SMUAbdullah/smuabdullah.github.io/blob/main/Education.md)
 
-[Linkedin](https://www.linkedin.com/in/umerabdullah1)
+[Linkedin](https://www.linkedin.com/in/umerabdullah1/)
 
 ### Support or Contact
 
