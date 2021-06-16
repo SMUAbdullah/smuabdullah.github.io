@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Newsfeed
 
 You can use the [editor on GitHub](https://github.com/SMUAbdullah/smuabdullah.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
 
@@ -30,7 +30,7 @@ For more details see [GitHub Flavored Markdown](https://guides.github.com/featur
 
 ### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/SMUAbdullah/smuabdullah.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+[Education](https://github.com/SMUAbdullah/smuabdullah.github.io/blob/main/Education)
 
 ### Support or Contact
 
