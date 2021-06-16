@@ -5,7 +5,7 @@
 [Orcid](http://orcid.org/0000-0002-7334-0722)
 
 <ul>
-  {% for post in site.posts %}
+  {% for post in smuabdullah.github.io.posts %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
     </li>
