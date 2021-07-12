@@ -15,15 +15,15 @@
 minimal_mistakes_skin    : "contrast" # contrast "default", "air", "aqua", dark, "dirt", "neon", "mint", "plum", "sunrise"
 # Site Settings
 locale                   : "en-US"
-title                    : "Dr. M. Usman Maqbool Bhutta - Personal Website"
+title                    : "Syed Muhammad Umer Abdullah"
 logo                     : "/assets/images/logo-3.png"
 
 title_separator          : "-"
-name                     : "M. Usman Maqbool Bhutta"
-description              : "Its all about M Usman Maqbool Bhutta. Living in Hong Kong. He is a roboticist and entrepreneur as well as an excellent robotics researcher. He is interested in Multi-agent system, Autonomous Car and machine learning as well as in flying Cars technology."
-url                      : "https://usmanmaqbool.github.io" # the base hostname & protocol for your site e.g. 
+name                     : "Syed Muhammad Umer Abdullah"
+description              : "Bioinformatics | Pandemic response | Deep learning | Computational immunology"
+url                      : "https://smuabdullah.github.io/" # the base hostname & protocol for your site e.g. 
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : UsmanMaqbool/usmanmaqbool.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : SMUAbdullah/smuabdullah.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -78,9 +78,9 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               : MUsmanMBhutta
+  username               :
 facebook:
-  username               : realusmanmaqbool
+  username               :
   app_id                 :
   publisher              :
 og_image                 : # Open Graph/Twitter default site image
@@ -93,20 +93,20 @@ social:
 
 # Analytics
 analytics:
-  provider               : "google" # false (default), "google", "google-universal", "custom"
+  provider               : false # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          : UA-121333621-1
+    tracking_id          : 
     anonymize_ip         : # true, false (default)
 
 
 # Site Author
 author:
-  name             : "Dr. Muhammad Usman Maqbool BHUTTA"
+  name             : "Syed Muhammad Umer Abdullah"
   avatar           : "/assets/images/profile.jpg" # path of avatar image, e.g. 
   logo             : "/assets/images/logo.jpeg"
-  bio              : "<b>PhD</b> (HKUST-HK), <b>MPhil</b> (QAU-PK), <b>M.Sc.</b> (QAU-PK) and <b>B.Sc.</b>(BZU,PK). <br> <br>   <b> I'm interested in: </b> <br> Mixed-Reality AR/VR, Multi-Robotics SLAM, Deep Learning, Entrepreneurship / Startups."
-  email            : "usmanmaqbool@outlook.com"
-  location         : "C3 Robotics Laboratory, CUHK, Hong Kong"
+  bio              : "Bioinformatics | Pandemic response | Deep learning | Computational immunology"
+  email            : "smumer AT hku DOT hk"
+  location         : "State Key Laboratory of Emerging Infectious Diseases, Carol Yu Centre for Infection, Department of Microbiology, Li Ka Shing Faculty of Medicine, The University of Hong Kong, Pokfulam, Hong Kong, China"
   uri              : # "https://sites.google.com/site/musmanmbhutta/"
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        : 
@@ -115,23 +115,23 @@ author:
   flickr           :
   facebook         : 
   foursquare       :
-  github           : usmanmaqbool
+  github           : SMUAbdullah
   gitlab           :
   google_plus      :
   keybase          :
-  instagram        : "realusmanmaqbool"
+  instagram        : 
   lastfm           :
-  linkedin         : "usmanmaqbool" # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
+  linkedin         : "umerabdullah1" # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
   tumblr           :
-  twitter          : "MUsmanMBhutta"
+  twitter          : 
   vine             :
   weibo            :
   xing             :
-  youtube          : "https://youtube.com/channel/UCLQDiJdu70ptPHS_ws1Pcfw"
+  youtube          : 
 
 
 # Reading Files
