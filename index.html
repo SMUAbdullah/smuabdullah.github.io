@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8"/>
+        <title>[ Umer Abdullah @ HKU ]</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        
+        <!-- Font Awesome Icons -->
+        <link rel="stylesheet" href="css/font-awesome.min.css"/>
+        
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet"/>
+        <!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
+        
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+         <script src="js/html5shiv.js"></script>
+         <script src="js/respond.min.js"></script>
+         <![endif]-->
+        
+        
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <!-- http://getbootstrap.com/customize/ change "@screen-sm" -> "@screen-md" in @grid-float-breakpoint -->
+        <script src="js/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/menucollapse.js"></script>
+        <script type="text/javascript" src="js/arrow78.js"></script>
+        <script type="text/javascript" src="js/custom.js"></script>
+    </head>
+    
+    <body id="page-top" class="index">
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"  data-target="#bs-example-navbar-collapse-2" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="glyphicon glyphicon-search"></span>
+                    </button>
+                    <button id="button2" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <span><a href="#"><img border="0" height="40" width="180" src="images/hku-logo.svg"/></a></span>
+                </div>
+                
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+						<li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-home-content').show();" href="#home">Biography</a>
+                        </li>
+						<li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-news-content').show();" href="#news">News</a>
+                        </li>
+						<li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-awards-content').show();" href="#publications">Publications</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-awards-content').show();" href="#awards">Awards</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-courses-content').show();" href="#courses">Certifications</a>
+                        </li>
+						<li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-advising-content').show();" href="#service">Service</a>
+                        </li>
+						<li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-industry-content').show();" href="#industry">Industry</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-advising-content').show();" href="#links">Links</a>
+                        </li>                        
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-contact-content').show();" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+                
+                <!-- search box submenu -->
+                <div class="collapse" id="bs-example-navbar-collapse-2">
+                    <gcse:search></gcse:search>
+                        </div>
+                
+            </div><!-- /.container-fluid -->
+        </nav>
+        
+        <section>
+            <!-- Place this tag where you want the search results to render -->
+            <gcse:searchresults-only></gcse:searchresults-only>
+                </section>
+        
+        <!-- Home Section -->
+        <section  name="home" id="home" style="margin-top:40px">
+            <div class="container">
+                <div align="left" class="col-md-3">
+                  <img id="mobile-img" src="images/image.jpg" width="160" border="0" height="200" alt="">
+                </div>
+                <div align="left" class="col-md-4">
+                    <h2>Syed Muhammad Umer Abdullah
+                        <h5><i>MPhil, The Hong Kong University of Science and Technology, Hong Kong, 2021</i></h5>
+                    </h2>
+                    
+                    <h4>Research Assistant II<br>
+                        <a href="http://www.microbiology.hku.hk/">Department of Microbiology</a><br>
+                        <a href="https://www.hku.hk/">The University of Hong Kong</a><br>
+                        Email: smumer (at) hku (dot) hk
+                    </h4>
+                    <h4><i>Expertise: Bioinformatics, Pandemic response, Deep learning, &amp; Computational immunology</i> <a href="#intro" onclick="javascript:reset_menus();$('#tab-intro-content').show();" class="btn-primary btn-xs">&raquo;</a><br></h4>
+                    
+                </div>
+                
+                <i class="twittertop" style="display:none;" id="t1">
+                    <div id="news" tyle="text-align: left"  class="col-md-5">&nbsp;
+                        <center><a class="twitter-timeline" href=https://twitter.com/m_umerabdullah data-chrome="nofooter" data-widget-id="346662554203992065" data-width="900"
+                            data-height="300">Tweets
+                            by @m_umerabdullah</a>
+                        <script>!function (d, s, id) {
+                            var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+                            if (!d.getElementById(id)) {
+                                js = d.createElement(s);
+                                js.id = id;
+                                js.src = p + "://platform.twitter.com/widgets.js";
+                                fjs.parentNode.insertBefore(js, fjs);
+                            }
+                        }(document, "script", "twitter-wjs");</script></center>
+                    </div>
+                </i>
+                
+                <!--<p><a href="#" class="btn btn-primary">More &raquo;</a></p>-->
+                <b class="expandshow" style="display:none;" id="tab-1">
+                    <button class="btn btn-primary btn-lg btn-block" style="width: 100%;" onclick="javascript:$('.allshow').show();$('.noshow').hide();$('.collapseshow').show();$('.expandshow').hide();">EXPAND ALL SECTIONS <span class="glyphicon glyphicon-chevron-down"></span></button>
+                </b>
+                <b class="collapseshow" style="display:none;" id="tab-1">
+                    <button class="btn btn-primary btn-lg btn-block" style="display: block; width: 100%;" onclick="javascript:$('.allshow').hide();$('.noshow').show();$('.expandshow').show();$('.collapseshow').hide();">COLLAPSE ALL SECTIONS <span class="glyphicon glyphicon-chevron-up"></span></button>
+                </b>
+                
+            </div>
+        </section>
+        
+        <!-- Home Section -->
+        <section name="intro" id="intro">
+            <div class="container lead">
+                <div style="text-align: left; margin-top:10px" class="col-md-12">
+                    <!--<h2>Welcome!</h2>-->
+                    
+                    <b class="noshow" style="display:none;" id="tab-1">
+                        <button class="btn btn-default btn-lg btn-block" style="display: block; width: 100%;" onclick="javascript:$('#tab-intro-content').toggle();">Introduction <span class="glyphicon glyphicon-chevron-down"></span></button>
+                    </b>
+                    
+                    <div class="allshow" style="display:none;" id="tab-intro-content">
+                        <hr class="star-primary">
+                        
+                        <p class="lead">
+                        Syed Muhammad Umer Abdullah is working as a Research Assistant II in the <a target="_blank" href="http://www.microbiology.hku.hk">Department of Microbiology</a> at <a target="_blank" href="https://www.hku.hk">The University of Hong Kong</a>. He holds an MPhil (2021) in Electronic and Computer Engineering from the <a href="https://hkust.edu.hk" target="_blank">The Hong Kong University of Science and Technology</a>, Hong Kong, and a B.E (2012) in Electrical Engineering from the <a href="https://nust.edu.pk" target="_blank">National University of Sciences & Technology</a>, Pakistan. Before his current appointment, he has served as a Teaching Assistant at the <a target="_blank" href="https://ece.hkust.edu.hk">Department of Electronic and Computer Engineering</a>, <a href="https://hkust.edu.hk" target="_blank">The Hong Kong University of Science and Technology</a>, Hong Kong (2016-2017). He has had Research appointments at <a href="https://bartonlab.ucr.edu" target="_blank">Barton Lab</a>, <a href="https://www.ucr.edu" target="_blank">The University of California-Riverside</a>, CA, USA (2019), and the <a target="_blank" href="http://ww3.comsats.edu.pk/ee">Department of Electronic and Computer Engineering</a>, <a href="https://www.comsats.edu.pk" target="_blank">COMSATS University</a>, Islamabad, Pakistan (2013). He has served as an Associate Technical Professional in <a target="_blank" href="https://www.halliburton.com/en/completions">Halliburton Completion Tools</a> at <a target="_blank" href="https://www.halliburton.com">Halliburton Worldwide Limited</a>, Pakistan (2013-2015), where he performed over 50 well completions, well services, and well surveys. He has also served as a Safety and Security Engineer at <a target="_blank" href="https://www.linkedin.com/company/huaneng-shandong-power-generation-limited/">Huaneng Shandong Ruyi Energy Private Limited</a>, Pakistan (2015-2016), where he worked on ensuring compliance with company regulations during the construction of the <a target="_blank" href="http://cpec.gov.pk/project-details/2">1320MW Sahiwal Coal-fired Power Plant</a>.                        
+                        </p>
+                        <p>
+                        His primary research interests include <b>Bioinformatics, Pandemic response, Deep learning, & Computational immunology</b>, particularly <i>Computation of evolutionary parameters of evolving viral populations; Predicting functionally important mutations; Data-driven epidemic mitigation strategies; Analysis of infection outbreaks.</i>
+                        
+                        
+                        <p>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        
+        <div class="twitterlow" style="display:none;" id="t1">
+            <!-- News Section -->
+            <section  name="news"  id="news">
+                <div class="container lead">
+                    <div style="text-align: left; margin-top:10px" class="col-md-12">
+                        
+                        <b class="noshow" style="display:none;" id="tab-2">
+                            <button class="btn btn-default btn-lg btn-block" style="display: block; width: 100%;" onclick="javascript:$('#tab-news-content').toggle();">News  <span class="glyphicon glyphicon-chevron-down"></span></button>
+                        </b>
+                        <b class="allshow" style="display:none;" id="tab-news-content">
+                            
+                            <hr class="star-primary">
+                            
+                            <h2>News</h2>
+                            <center><a class="twitter-timeline" href="https://twitter.com/m_umerabdullah" data-chrome="nofooter" data-widget-id="346662554203992065">Tweets
+                                by @m_umerabdullah</a>
+                            <script>!function (d, s, id) {
+                                var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+                                if (!d.getElementById(id)) {
+                                    js = d.createElement(s);
+                                    js.id = id;
+                                    js.src = p + "://platform.twitter.com/widgets.js";
+                                    fjs.parentNode.insertBefore(js, fjs);
+                                }
+                            }(document, "script", "twitter-wjs");
+                            </script>
+                            </center>
+                        </b>
+                    </div>
+                </div>
+            </section>
+        </div>
+        
+        <!-- Research Section -->
+        <section  name="publications" id="publications">
+            <div class="container lead">
+                <div style="text-align: left; margin-top:10px" class="col-md-12">
+                    
+                    <b class="noshow" style="display:none;" id="tab-3">
+                        <button class="btn btn-default btn-lg btn-block" style="display: block; width: 100%;" onclick="javascript:$('#tab-publications-content').toggle();">Publications  <span class="glyphicon glyphicon-chevron-down"></span></button>
+                    </b>
+                    <div class="allshow" style="display:none;" id="tab-publications-content">
+                        <hr class="star-primary">
+                        
+                        <h2>Publications</h2>
+                        <h4>
+                            <span class="label label-warning">
+                                <a target="_blank" href="https://scholar.google.com/citations?user=MPIgLNMAAAAJ&hl=en"><font color=white>Google scholar</font></a>
+                            </span>&nbsp;
+                            <span class="label label-default">
+                                <a target="_blank" href="https://orcid.org/0000-0002-7334-0722"><font color="white">ORCID</font></a>
+                            </span>&nbsp;
+                            
+                            
+                        </h4>
+                        <ul>
+                          <li><span class="label label-success">Preprint</span> <a target="_blank" href="https://www.researchsquare.com/article/rs-1512533/v1">"Contribution of low population immunity to the severe Omicron BA.2 outbreak in Hong Kong"</a>, LL Chen, <b>SMU Abdullah (co-first author)</b>, WM Chan, BPC Chan, JD Ip, AWH Chu, L Lu, X Zhang, Y Zhao, VWM Chuang, AKW Au, VCC Cheng, S Sridhar, KY Yuen, IFN Hung, KH Chan, KKW To, <b>preprint</b>, 2022. </li>
+						  <script async src="https://badges.dimensions.ai/badge.js" charset="utf-8"></script>
+						  <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+						  <!-- 
+						  <div style="width: 100%;">
+							<div style="width: 7%; height: 80px; float: left;"> 
+							<span class="__dimensions_badge_embed__" data-doi="10.21203/rs.3.rs-1512533/v1" data-style="small_circle"></span>
+							</div>
+							<div style="margin-left: 7%; height: 80px;"> 
+							<div class='altmetric-embed' data-badge-popover="right" data-badge-type='donut' data-hide-less-than="1" data-doi="10.21203/rs.3.rs-1512533/v1"></div>
+							</div>
+						  </div>
+						  -->
+						  <div class='altmetric-embed' data-badge-popover="right" data-badge-type='donut' data-hide-less-than="1" data-doi="10.21203/rs.3.rs-1512533/v1"></div>
+                          <li><span class="label label-success">IEEE TGRS</span> <a target="_blank" href="https://ieeexplore.ieee.org/abstract/document/7031394">"A Multivariate Empirical Mode Decomposition Based Approach to Pansharpening"</a>, <b>SMU Abdullah</b>, N Rehman, MM Khan, DP Mandic, <b>Geoscience and Remote Sensing, IEEE Transactions on</b>,  vol. 53, no. 7, pp. 3974-3984, 2015. </li>
+						  <div style="width: 100%;">
+							<div style="width: 7%; height: 80px; float: left;"> 
+							<span class="__dimensions_badge_embed__" data-doi="10.1109/TGRS.2015.2388497" data-style="small_circle"></span>
+							</div>
+							<div style="margin-left: 7%; height: 80px;"> 
+							<div class='altmetric-embed' data-badge-popover="right" data-badge-type='donut' data-hide-less-than="1" data-doi="10.1109/TGRS.2015.2388497"></div>
+							</div>
+						  </div>
+						  <li><span class="label label-success">CID</span> <a target="_blank" href="https://academic.oup.com/cid/advance-article/doi/10.1093/cid/ciac203/6546687">"Rapid spread of SARS-CoV-2 Omicron subvariant BA.2 in a single-source community outbreak"</a>, VCC Cheng, JD Ip, AWHo Chu, AR Tam, WM Chan, <b>SMU Abdullah</b>, BPC Chan, SC Wong, MYW Kwan, GT Chua, P Ip, JMC Chan, BHS Lam, WK To, VWM Chuang, KY Yuen, IFN Hung, KKW To, <b>Clinical Infectious Diseases</b>, ciac203, 2022. </li>
+						  <div style="width: 100%;">
+							<div style="width: 7%; height: 80px; float: left;"> 
+							<span class="__dimensions_badge_embed__" data-doi="10.1093/cid/ciac203" data-style="small_circle"></span>
+							</div>
+							<div style="margin-left: 7%; height: 80px;"> 
+							<div class='altmetric-embed' data-badge-popover="right" data-badge-type='donut' data-hide-less-than="1" data-doi="10.1093/cid/ciac203"></div>
+							</div>
+						  </div>
+						  <li><span class="label label-success">CID</span> <a target="_blank" href="https://academic.oup.com/cid/advance-article/doi/10.1093/cid/ciac171/6541148">"Probable Animal-to-Human Transmission of SARS-CoV-2 Delta Variant AY.127 Causing a Pet Shop-Related COVID-19 Outbreak in Hong Kong"</a>, JFW Chan, GKH Siu, S Yuan, JD Ip, JP Cai, AWH Chu, WM Chan, <b>SMU Abdullah</b>, C Luo, BPC Chan, TTT Yuen, LL Chen, KKH Chik, R Liang, H Cao, VKM Poon, CCS Chan, KH Leung, AR Tam, OTY Tsang, JMC Chan, WK To, BHS Lam, LK Lee, HWH Lo, ITF Wong, JSL Leung, EYK Wong, H Chu, CCY Yip, VCC Cheng, KH Chan, H Tse, DC Lung, KHL Ng, AKW Au, IFN Hung, KY Yuen, KKW To, <b>Clinical Infectious Diseases</b>, ciac171, 2022. </li>
+						  <div style="width: 100%;">
+							<div style="width: 7%; height: 80px; float: left;"> 
+							<span class="__dimensions_badge_embed__" data-doi="10.1093/cid/ciac171" data-style="small_circle"></span>
+							</div>
+							<div style="margin-left: 7%; height: 80px;"> 
+							<div class='altmetric-embed' data-badge-popover="right" data-badge-type='donut' data-hide-less-than="1" data-doi="10.1093/cid/ciac171"></div>
+							</div>
+						  </div>
+						  <li><span class="label label-success">eBioMedicine</span> <a target="_blank" href="https://www.thelancet.com/journals/ebiom/article/PIIS2352-3964(22)00170-0/fulltext">"Boosting of Serum Neutralizing Activity Against the Omicron Variant Among Recovered COVID-19 Patients by BNT162b2 and Coronavac Vaccines"</a>, L Lu, LL Chen, RRQ Zhang, OTY Tsang, JMC Chan, AR Tam, WS Leung, TSH Chik, DPL Lau, CYC Choi, CHY Fong, JP Cai, HW Tsoi, CYK Choi, X Zhang, <b>SMU Abdullah</b>, BPC Chan, KH Chan, KY Yuen, IFN Hung, KKW To, <b>EBioMedicine</b>, vol. 79, no. 103986, 2022.</li>
+						  <!-- <span class="__dimensions_badge_embed__" data-doi="10.1016/j.ebiom.2022.103986" data-style="small_circle" align="left"></span> -->
+						  <div class='altmetric-embed' data-badge-popover="right" data-badge-type='donut' data-hide-less-than="1" data-doi="10.1016/j.ebiom.2022.103986"></div>
+						  <li><span class="label label-success">Sensors</span> <a target="_blank" href="https://www.mdpi.com/1424-8220/15/5/10923">"Multi-Scale Pixel-Based Image Fusion Using Multivariate Empirical Mode Decomposition"</a>, N Rehman, S Ehsan, <b>SMU Abdullah</b>, MJ Akhtar, DP Mandic, and KD McDonald-Maier, <b>Sensors</b>, vol. 15, no. 5, pp. 10923-10947, 2015.</li>
+						  <div style="width: 100%;">
+							<div style="width: 7%; height: 80px; float: left;"> 
+							<span class="__dimensions_badge_embed__" data-doi="10.3390/s150510923" data-style="small_circle"></span>
+							</div>
+							<div style="margin-left: 7%; height: 80px;"> 
+							<div class='altmetric-embed' data-badge-popover="right" data-badge-type='donut' data-hide-less-than="1" data-doi="10.3390/s150510923"></div>
+							</div>
+						  </div>
+                          </ul>
+                </div>
+            </div>
+        </section>
+        
+    
+ 
+         <!-- Courses Section -->
+         <section  name="awards" id="awards">
+             <div class="container lead">
+                 <div style="text-align: left; margin-top:10px" class="col-md-12">
+                     
+                     <b class="noshow" style="display:none;" id="tab-6">
+                         <button class="btn btn-default btn-lg btn-block"  style="display: block; width: 100%;" onclick="javascript:$('#tab-awards-content').toggle();">Awards  <span class="glyphicon glyphicon-chevron-down"></span></button>
+                     </b>
+                     <div class="allshow" style="display:none;" id="tab-awards-content">
+                         
+                         <hr class="star-primary">
+                         <h2>Honors and Awards</h2>
+                         <ul>
+                             <li>
+                                 <span class="label label-success">Oct. 2008 – Aug. 2012</span> <b>Corps of E&ME Commandant’s Plaque of Honor</b> for outstanding academic performance, National University of Sciences and Technology, Pakistan.</span>
+                             </li>
+                             <li>
+                                 <span class="label label-success">Oct. 2008 – Aug. 2012</span> <b>Corps of E&ME Commandant’s Distinguished Student Award</b> for academic excellence, National University of Sciences and Technology, Pakistan.</span>
+                             </li>
+                             <li>
+                                 <span class="label label-success">July. 2008</span> Stood <b>2nd</b> among <b>40000</b> candidates in University Entrance Examination, National University of Sciences and Technology, Pakistan.</span>
+                             </li>
+                             <li>
+                                 <span class="label label-success">Nov. 2007-Dec. 2007</span> Represented Pakistan as <b>Student Ambassador</b> at the South Asian Association for Regional Cooperation (SAARC) student exchange program, New Delhi, India.</span>
+                             </li>
+                             <li>
+                                 <span class="label label-success">Sep. 2006- Jul. 2008</span> Awarded <b>merit scholarship</b> for performance in Higher Secondary School Certificate examination by Federal Directorate of Education, Pakistan.</span>
+                             </li>
+                             <li>
+                                 <span class="label label-success">Sep. 2004- Jul. 2006</span> Awarded <b>merit scholarship</b> for performance in Secondary School Certificate examination by Federal Directorate of Education, Pakistan.</span>
+                             </li>                             
+                         </ul>
+                     </div>
+                 </div>
+             </div>
+         </section>
+
+
+        <!-- Courses Section -->
+        <section  name="courses" id="courses">
+            <div class="container lead">
+                <div style="text-align: left; margin-top:10px" class="col-md-12">
+                    
+                    <b class="noshow" style="display:none;" id="tab-5">
+                        <button class="btn btn-default btn-lg btn-block"  style="display: block; width: 100%;" onclick="javascript:$('#tab-courses-content').toggle();">Courses  <span class="glyphicon glyphicon-chevron-down"></span></button>
+                    </b>
+                    <div class="allshow" style="display:none;" id="tab-courses-content">
+                        <hr class="star-primary">
+                        <h2>Certifications</h2>
+                        <ul>
+                            <li><span class="label label-success">DeepLearning.AI</span> <a href="https://www.coursera.org/account/accomplishments/certificate/E4UPQKS679R6">AI for Medical Diagnosis</a></li>
+							<li><span class="label label-success">DeepLearning.AI</span> <a href="https://www.coursera.org/account/accomplishments/certificate/QFMB6L7XLX6M">Neural Networks and Deep Learning</a></li>
+							<li><span class="label label-success">University of Michigan</span> <a href="https://www.coursera.org/account/accomplishments/certificate/NGHXKVCJ387W">Programming for Everybody (Getting Started with Python)</a></li>
+                            <li><span class="label label-default">University of Michigan</span> <a target="_blank" href="https://www.coursera.org/learn/python-data-analysis/">Introduction to Data Science in Python</a></li>
+                            <li><span class="label label-default">Duke University</span> <a target="_blank" href="https://www.coursera.org/learn/probability-intro/">Introduction to Probability and Data with R</a></li>                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Service Section -->
+        <section name="service" id="service">
+            
+            <div class="container lead">
+                <div style="text-align: left; margin-top:10px" class="col-md-12">
+                    
+                    <b class="noshow" style="display:none;" id="tab-7">
+                        <button class="btn btn-default btn-lg btn-block"  style="display: block; width: 100%;" onclick="javascript:$('#tab-service-content').toggle();">Service  <span class="glyphicon glyphicon-chevron-down"></span></button>
+                    </b>
+                    <div class="allshow" style="display:none;" id="tab-service-content">
+                        
+                        <hr class="star-primary">
+                        <h2>Professional Service</h2>
+                        <p>
+                        <span class="label label-success">Journal papers Reviewed</span>
+                        
+                        <ul>
+							<li><a target="_blank" href="https://www.futuremedicine.com/loi/fvl">Future Virology</a></li>
+                            <li><a target="_blank" href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=97">IEEE Signal Processing Letters</a></li>
+                            <li><a target="_blank" href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8859">IEEE Geoscience and Remote Sensing Letters</a></li>
+							<li><a target="_blank" href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=36">IEEE Transactions on Geoscience and Remote Sensing</a></li>							
+                        </ul>
+                        </span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+		
+		<section name="industry" id="industry">
+            
+            <div class="container lead">
+                <div style="text-align: left; margin-top:10px" class="col-md-12">
+                    
+                    <b class="noshow" style="display:none;" id="tab-7">
+                        <button class="btn btn-default btn-lg btn-block"  style="display: block; width: 100%;" onclick="javascript:$('#tab-service-content').toggle();">Industrial Experience  <span class="glyphicon glyphicon-chevron-down"></span></button>
+                    </b>
+                    <div class="allshow" style="display:none;" id="tab-service-content">
+                        
+                        <hr class="star-primary">
+                        <h2>Industrial Experience</h2>
+                        <ul>
+                            <li><span class="label label-success"><font color="white">2015</font></span> <b>Well Completions Certification</b>, Halliburton Technical Excellence Center <b>(HTEC), Universiti Teknologi PETRONAS</b>, Malaysia.</li>
+							<li><span class="label label-success"><font color="white">2013-2015</font></span> <b>Associate Technical Professional</b>, Halliburton Completion Tools, Halliburton Worldwide Limited, Pakistan.
+								<ul>
+								<li>Running Halliburton Wireline Set & Hydraulic Set <b>Completion packers (BWS, BWD, TWT, HPS, TWJ and MHR)</b>. Ran <b>ENI Pakistan’s first 15K completion</b> at the well Badhra South Deep-1.</li>
+								<li>Running Halliburton Self Equalizing & Non Self Equalizing <b>Tubing Retrievable Surface Controlled Subsurface Safety Valves (TRSCSSVs) (NE®, SP®, WellStar®)</b>, <b>Otis® Selective</b> and <b>Non Selective</b> Flow Control Equipment.</li>
+								<li><b>Design of well completion strings</b> meeting client specifications, <b>preemption and prevention of potential tubing failure</b> using Halliburton <b>Cyberstring® Software</b>, identifying <b>design improvements</b> for cost optimization.</li>
+								<li>Identification and prevention of potential casing damage using Halliburton <b>SlipForce® Software</b>.</li>
+								<li>Redressing, Pressure Testing and Running of Halliburton Well Services tools <b>Sub Surface Control (Storm) Valve</b>, <b>BO Hydraulic Setting Tool</b>, <b>HS Hydraulic Setting Tool</b>, <b>Mechanical Setting Tool</b> and <b>RTTS Packer</b>. Running, setting and drilling of <b>EZSVB® Cement Retainer</b> & <b>Bridge Plug</b>.</li>
+								<li>Acquisition and Analysis of Flowing and Shut in Bottom Hole Pressure & Temperature data using <b>Spartek Quartzdyne EMR gauges</b>.</li>
+								<li><b>Safety meeting sessions</b> for employees on <b>Lithium battery safety</b>, <b>Sour Gas safety</b>, <b>Chemical handling</b>, <b>Trapped pressure</b>, <b>Lifting & Hoisting</b>, <b>Defensive driving</b>, <b>Permit to Work</b> and <b>Hand & Finger Safety</b>.</li>
+								<li>Working knowledge of the <b>Halliburton SAP® Asset Maintenance Management System</b>.</li>
+								<li>Running of <b>Otis® Slickline tools</b> and working knowledge of Slickline Jobs of <b>Test tool setting & retrieval</b>, <b>Data Acquisition</b>, <b>TCP</b>, <b>Fishing</b>, <b>LIB</b>, <b>Gauge Cutting</b> and <b>Swaging</b>.</li>
+								<li>Working knowledge of <b>Wireline jobs</b> of <b>Packer Setting with CPST and CCL</b>, <b>CBL/VDL</b>, <b>VSP</b>, <b>RA marker depth correlation</b>, <b>Back off</b>, <b>Tubing puncturing</b> and <b>Tubing Cutting (Power/Chemical)</b>.</li>
+								<li>Working knowledge of fishing operations and equipment, hands on experience on using <b>Taper Tap</b>, <b>Overshot</b> and <b>Grapple</b>.</li>
+								</ul>
+							</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Home Section -->
+        <section name="links" id="links">
+            <div class="container lead">
+                <div style="text-align: left; margin-top:10px" class="col-md-12">
+                    
+                    <b class="noshow" style="display:none;" id="tab-9">
+                        <button class="btn btn-default btn-lg btn-block"  style="display: block; width: 100%;" onclick="javascript:$('#tab-links-content').toggle();">Links  <span class="glyphicon glyphicon-chevron-down"></span></button>
+                    </b>
+                    
+                    <div class="allshow" style="display:none;" id="tab-links-content">
+                        
+                        <hr class="star-primary">
+                        <h2>Non-academic work</h2>
+                        <ul>
+                            <li><span class="label label-success"><font color="white">Birdwatching</font></span> <a target="_blank" href="https://www.scmp.com/magazines/post-magazine/short-reads/article/3141069/why-hong-kong-great-birdwatching-wheres-best-go">Interview</a> with the South China Morning Post.</li>
+							<li><span class="label label-success"><font color="white">Birdwatching</font></span> <a target="_blank" href="https://youtu.be/po0b3_L8jOs">Talk</a> on birdwatching with <a target="_blank" href="https://encompasshk.com/">Encompass Hong Kong</a>.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Home Section -->
+        <section  name="contact" id="contact">
+            <div class="container lead">
+                <div style="text-align: left; margin-top:10px" class="col-md-12">
+                    
+                    <b class="noshow" style="display:none;" id="tab-10">
+                        <button class="btn btn-default btn-lg btn-block"  style="display: block; width: 100%;" onclick="javascript:$('#tab-contact-content').toggle();">Contact  <span class="glyphicon glyphicon-chevron-down"></span></button>
+                    </b>
+                    
+                        <hr class="star-primary">
+                        <h2>Contact</h2>
+                        <div class="container lead">
+                            <div align="center">
+                                
+                                <p class="myEN">
+                                Syed Muhammad Umer Abdullah<br>
+                                2nd Floor, Block T,<br>
+                                Queen Mary Hospital<br>
+								Pok Fu Lam Road, Hong Kong<br>
+                                </p>
+                            </div>
+                        </div>
+                        <hr class="star-primary">
+                    
+                    </section>
+        
+        <hr class="star-primary">
+        <footer>
+    <small>
+    <center>
+        © 2022 | Syed Muhammad Umer Abdullah. Credits: AR template
+    <a onclick="javascript:$('#credit').toggle();"><img border="0" src="images/ccby.png"/></a>
+    <div style="display:none;" id="credit">[AR template available under Creative Commons CC BY 4.0 licence: 
+    <a href="https://github.com/dmsl/academic-responsive-template" target="_blank">
+        https://github.com/dmsl/academic-responsive-template 
+    </a> ]
+    </div>
+    </center>
+    </small>
+</footer>
+    </body>
+    
+</html>
