@@ -1,9 +1,3 @@
----
-layout: archive
-title: "Useful Information"
-permalink: /useful_information/
-author_profile: true
----
 </li>
   <li>Finding Halal restaurants in Mainland China(https://docs.google.com/document/d/1j1OwTCk2VhMYHf2blrDSAMZVfSxFv6UttinPeTukdVg/edit?usp=sharing)</li>
   <li>Permanent HKID procedure(https://docs.google.com/document/d/1mZXNj9U8EVz3rITjnPb1_AaPAP-rbSsEGDqbFbVtRtg/edit?usp=sharing)</li>
