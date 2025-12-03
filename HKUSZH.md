@@ -2,7 +2,7 @@
 
 - Scan this QR code via WeChat and follow the account
   
-![QR](https://github.com/SMUAbdullah/smuabdullah.github.io/blob/main/images/HKUSZH/818462.png){:height="36px" width="36px"}
+![QR](https://github.com/SMUAbdullah/smuabdullah.github.io/blob/main/images/HKUSZH/818462.png){:height="10px" width="10px"}
 
 - Tap on services
 
