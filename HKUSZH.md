@@ -9,14 +9,16 @@
 - Tap on Add Patient
 ![Homepage](https://github.com/SMUAbdullah/smuabdullah.github.io/tree/main/images/HKUSZH/homepage.JPG)
 - Fill in your details (Name, Identity Document, Identity Document number, phone number)
-![π](https://github.com/SMUAbdullah/digits_of_pi/blob/master/image/pi.png)
+![Pat Details](https://github.com/SMUAbdullah/smuabdullah.github.io/tree/main/images/HKUSZH/pat_details.JPG)
 - Tap on Appointment
-![π](https://github.com/SMUAbdullah/digits_of_pi/blob/master/image/pi.png)
+![Appointment](https://github.com/SMUAbdullah/smuabdullah.github.io/tree/main/images/HKUSZH/homepage.JPG)
+- Choose the department and subdepartment (may need to translate if can't read Chinese)
+![Department](https://github.com/SMUAbdullah/smuabdullah.github.io/tree/main/images/HKUSZH/dept.jpg)
 - Tap on services
-![π](https://github.com/SMUAbdullah/digits_of_pi/blob/master/image/pi.png)
+![Pat Details](https://github.com/SMUAbdullah/smuabdullah.github.io/tree/main/images/HKUSZH/pat_details.JPG)
 - Tap on services
-![π](https://github.com/SMUAbdullah/digits_of_pi/blob/master/image/pi.png)
+![Pat Details](https://github.com/SMUAbdullah/smuabdullah.github.io/tree/main/images/HKUSZH/pat_details.JPG)
 - Tap on services
-![π](https://github.com/SMUAbdullah/digits_of_pi/blob/master/image/pi.png)
+![Pat Details](https://github.com/SMUAbdullah/smuabdullah.github.io/tree/main/images/HKUSZH/pat_details.JPG)
 - Tap on services
-![π](https://github.com/SMUAbdullah/digits_of_pi/blob/master/image/pi.png)
+![Pat Details](https://github.com/SMUAbdullah/smuabdullah.github.io/tree/main/images/HKUSZH/pat_details.JPG)
