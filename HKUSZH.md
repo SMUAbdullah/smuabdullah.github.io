@@ -24,7 +24,7 @@
 
 <img src="https://github.com/SMUAbdullah/smuabdullah.github.io/blob/main/images/HKUSZH/homepage.JPG" width="250" height="500">
 
-### Choose the department and subdepartment (may need to translate if can't read Chinese)
+### Choose the department and subdepartment (may need to translate if can't read Chinese). Typically one needs to go the the outpatient department first
 
 <img src="https://github.com/SMUAbdullah/smuabdullah.github.io/blob/main/images/HKUSZH/dept.jpg" width="250" height="500">
 
@@ -41,6 +41,8 @@
 <img src="https://github.com/SMUAbdullah/smuabdullah.github.io/blob/main/images/HKUSZH/payment.jpg" width="250" height="500">
 
 ## General guidelines
-- Try to book an appointment in the morning. If the doctor suggests a procedure, the equipment might not be available in the evening and you'll have to go again on the next day
-- Once you reach the hospital, go to the outpatient department. Find a self-service kiosk, enter your details, and obtain a queue number. Afterwards wait for your queue number to be called, meet the doctor, and if prescribed, pay for and get some procedure done
-- The hospital is right next to the Shenzhen Bay Park Metro Station. It can be reached via metro, bus, and taxi. Some guidelines are given on this [link](https://www.hku-szh.org/en/MakeanAppointment(HK-Macao-Residents)/GettingtoHKUSZH/index.html) 
+- Try to book an appointment in the morning. Avoid evening session appointments. If the doctor suggests a procedure, the equipment might not be available in the evening and you'll have to go again on the next day.
+- Once you reach the hospital, go to the outpatient department. Find a self-service kiosk, enter your details, and obtain a queue number. Afterwards wait for your queue number to be called, meet the doctor, and if prescribed, pay for and get some procedure done.
+- Payment is done via WeChat. Do ensure your WeChat pay is set up for payment in the Mainland and take a data SIM along.
+- The hospital is right next to the Shenzhen Bay Park Metro Station. It can be reached via metro, bus, and taxi. Some guidelines are given on this [link](https://www.hku-szh.org/en/MakeanAppointment(HK-Macao-Residents)/GettingtoHKUSZH/index.html).
+- If you go early or need to wait for a while, you can wait inside the hospital or you can walk to the Shenzhen Bay Park and wait there.
