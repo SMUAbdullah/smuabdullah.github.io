@@ -1,7 +1,7 @@
 ## Guidelines for WeChat booking
 
 - Scan this QR code via WeChat and follow the account
-![QR](https://github.com/SMUAbdullah/smuabdullah.github.io/blob/master/images/HKUSZH/818462.png)
+![QR](https://github.com/SMUAbdullah/smuabdullah.github.io/blob/main/images/HKUSZH/818462.png)
 - Tap on services
 ![Main](https://github.com/SMUAbdullah/smuabdullah.github.io/tree/main/images/HKUSZH/main.jpeg)
 - Tap on 普通门诊 (general outpatient clinic) under 医疗服务 (medical services)
