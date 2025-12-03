@@ -2,11 +2,11 @@
 
 - Scan this QR code via WeChat and follow the account
 
-<img src="https://github.com/SMUAbdullah/smuabdullah.github.io/blob/main/images/HKUSZH/818462.png" width="150" height="280">
+<img src="https://github.com/SMUAbdullah/smuabdullah.github.io/blob/main/images/HKUSZH/818462.png" width="250" height="250">
 
 - Tap on services
 
-![Main](https://github.com/SMUAbdullah/smuabdullah.github.io/blob/main/images/HKUSZH/main.jpeg)
+<img src="https://github.com/SMUAbdullah/smuabdullah.github.io/blob/main/images/HKUSZH/main.jpeg" width="250" height="500">
 
 - Tap on 普通门诊 (general outpatient clinic) under 医疗服务 (medical services)
 
