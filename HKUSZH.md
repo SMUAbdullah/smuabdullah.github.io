@@ -14,11 +14,9 @@
 ![Appointment](https://github.com/SMUAbdullah/smuabdullah.github.io/tree/main/images/HKUSZH/homepage.JPG)
 - Choose the department and subdepartment (may need to translate if can't read Chinese)
 ![Department](https://github.com/SMUAbdullah/smuabdullah.github.io/tree/main/images/HKUSZH/dept.jpg)
-- Tap on services
-![Pat Details](https://github.com/SMUAbdullah/smuabdullah.github.io/tree/main/images/HKUSZH/pat_details.JPG)
-- Tap on services
-![Pat Details](https://github.com/SMUAbdullah/smuabdullah.github.io/tree/main/images/HKUSZH/pat_details.JPG)
-- Tap on services
-![Pat Details](https://github.com/SMUAbdullah/smuabdullah.github.io/tree/main/images/HKUSZH/pat_details.JPG)
-- Tap on services
-![Pat Details](https://github.com/SMUAbdullah/smuabdullah.github.io/tree/main/images/HKUSZH/pat_details.JPG)
+- Choose an appointment date and time of day
+![Date and time](https://github.com/SMUAbdullah/smuabdullah.github.io/tree/main/images/HKUSZH/appt.jpeg)
+- Choose the exact time slot
+![Time slot](https://github.com/SMUAbdullah/smuabdullah.github.io/tree/main/images/HKUSZH/time.jpeg)
+- Tap on the green box and pay via WeChat
+![Payment](https://github.com/SMUAbdullah/smuabdullah.github.io/tree/main/images/HKUSZH/payment.jpg)
