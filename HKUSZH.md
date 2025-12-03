@@ -3,11 +3,11 @@
 - Scan this QR code via WeChat and follow the account
 ![QR](https://github.com/SMUAbdullah/smuabdullah.github.io/tree/main/images/HKUSZH/818462.png)
 - Tap on services
-![QR](https://github.com/SMUAbdullah/smuabdullah.github.io/tree/main/images/HKUSZH/main.jpeg)
+![Main](https://github.com/SMUAbdullah/smuabdullah.github.io/tree/main/images/HKUSZH/main.jpeg)
 - Tap on 普通门诊 (general outpatient clinic) under 医疗服务 (medical services)
-![QR](https://github.com/SMUAbdullah/smuabdullah.github.io/tree/main/images/HKUSZH/options.jpg)
+![Options](https://github.com/SMUAbdullah/smuabdullah.github.io/tree/main/images/HKUSZH/options.jpg)
 - Tap on Add Patient
-![π](https://github.com/SMUAbdullah/digits_of_pi/blob/master/image/pi.png)
+![Homepage](https://github.com/SMUAbdullah/smuabdullah.github.io/tree/main/images/HKUSZH/homepage.JPG)
 - Fill in your details (Name, Identity Document, Identity Document number, phone number)
 ![π](https://github.com/SMUAbdullah/digits_of_pi/blob/master/image/pi.png)
 - Tap on Appointment
