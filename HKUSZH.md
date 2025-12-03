@@ -1,10 +1,10 @@
 ## Guidelines for WeChat booking
 
-- Scan this QR code via WeChat and follow the account
+### Scan this QR code via WeChat and follow the account
 
 <img src="https://github.com/SMUAbdullah/smuabdullah.github.io/blob/main/images/HKUSZH/818462.png" width="250" height="250">
 
-- Tap on services
+### Tap on services
 
 <img src="https://github.com/SMUAbdullah/smuabdullah.github.io/blob/main/images/HKUSZH/main.jpeg" width="250" height="500">
 
