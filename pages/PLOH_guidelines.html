@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Important for mobile responsiveness -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <title>HKU-SZH · WeChat Booking Guide</title>
+    <!-- A clean, gentle font from Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600&display=swap" rel="stylesheet">
+    <!-- Font Awesome 6 (free) for subtle icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #f4f7fc;  /* soft medical / sky background */
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            line-height: 1.5;
+            color: #1e2b3f;
+            padding: 1.5rem 1rem;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .guide-container {
+            max-width: 560px;  /* comfortable card width, still mobile friendly */
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        /* main title card */
+        .title-card {
+            background: white;
+            border-radius: 32px;
+            padding: 2rem 1.5rem 1.8rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 12px 30px rgba(0, 30, 60, 0.08);
+            text-align: center;
+            border: 1px solid rgba(138, 180, 215, 0.15);
+        }
+
+        h1 {
+            font-size: 1.9rem;
+            font-weight: 600;
+            letter-spacing: -0.02em;
+            line-height: 1.2;
+            background: linear-gradient(145deg, #0B3954, #1b5e7a);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 0.25rem;
+        }
+
+        .subhead {
+            font-size: 1rem;
+            color: #54738f;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            margin-top: 8px;
+            font-weight: 400;
+            background: #e9f0f7;
+            padding: 0.4rem 1rem;
+            border-radius: 50px;
+            width: fit-content;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .subhead i {
+            color: #2c7da0;
+        }
+
+        /* step cards */
+        .step-card {
+            background: white;
+            border-radius: 28px;
+            padding: 1.5rem 1.2rem 1.8rem 1.2rem;
+            margin-bottom: 1.2rem;
+            box-shadow: 0 6px 16px rgba(0, 20, 40, 0.04);
+            border: 1px solid rgba(120, 170, 210, 0.15);
+            transition: all 0.2s;
+        }
+
+        .step-card:hover {
+            box-shadow: 0 12px 24px rgba(36, 108, 147, 0.08);
+            border-color: rgba(40, 120, 180, 0.2);
+        }
+
+        .step-header {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 1.2rem;
+            border-bottom: 1.5px dashed #d4e2ed;
+            padding-bottom: 0.75rem;
+        }
+
+        .step-number {
+            background: #d7e7f5;
+            color: #115c87;
+            width: 40px;
+            height: 40px;
+            border-radius: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 600;
+            font-size: 1.2rem;
+            flex-shrink: 0;
+        }
+
+        .step-header h3 {
+            font-size: 1.25rem;
+            font-weight: 500;
+            color: #0a3144;
+            line-height: 1.3;
+        }
+
+        /* image wrapper — soft corners, subtle background */
+        .image-wrapper {
+            background: #f5faff;
+            border-radius: 24px;
+            padding: 1.2rem 0.8rem 0.8rem 0.8rem;
+            text-align: center;
+            border: 1px solid #e3eef9;
+            margin: 0.8rem 0 0.2rem;
+        }
+
+        .image-wrapper img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 20px;
+            box-shadow: 0 6px 14px rgba(0, 40, 60, 0.1);
+            border: 2px solid white;
+            display: inline-block;
+        }
+
+        /* extra hint like tap / pay instruction */
+        .hint {
+            background: #f0f9ff;
+            border-left: 4px solid #4a9fd8;
+            padding: 0.75rem 1rem;
+            border-radius: 18px;
+            font-size: 0.95rem;
+            margin-top: 1rem;
+            color: #1e506e;
+            display: flex;
+            gap: 12px;
+            align-items: center;
+        }
+
+        .hint i {
+            font-size: 1.4rem;
+            color: #3174a0;
+        }
+
+        /* general guidelines section */
+        .guidelines-card {
+            background: white;
+            border-radius: 32px;
+            padding: 2rem 1.8rem;
+            margin-top: 1.8rem;
+            box-shadow: 0 10px 24px rgba(0, 32, 64, 0.06);
+            border: 1px solid #cde1ef;
+        }
+
+        .guidelines-title {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #0c3f5a;
+            margin-bottom: 1.8rem;
+        }
+
+        .guidelines-title i {
+            color: #1982c4;
+            background: #d9ebf7;
+            padding: 10px;
+            border-radius: 50%;
+        }
+
+        .guidelines-list {
+            list-style: none;
+        }
+
+        .guidelines-list li {
+            margin-bottom: 1rem;
+            display: flex;
+            gap: 14px;
+            align-items: flex-start;
+            font-size: 0.98rem;
+            color: #1d4057;
+        }
+
+        .guidelines-list li i {
+            color: #2f86b3;
+            font-size: 1.2rem;
+            min-width: 24px;
+            text-align: center;
+            margin-top: 2px;
+        }
+
+        a {
+            color: #1f709e;
+            text-decoration: none;
+            font-weight: 500;
+            border-bottom: 1.5px dotted #96c0da;
+        }
+
+        a:hover {
+            color: #083c58;
+            border-bottom: 1.5px solid #1b6b96;
+        }
+
+        /* tiny footer note */
+        .watermark-note {
+            margin-top: 2rem;
+            font-size: 0.8rem;
+            color: #99b6cf;
+            text-align: center;
+        }
+
+        hr {
+            display: none;  /* hiding old hr, using cards instead */
+        }
+
+        /* keep original image dimensions by respecting width/height attributes,
+           but we make them flexible */
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* additional micro-style */
+        .wechat-icon {
+            color: #1bb76e;
+        }
+    </style>
+</head>
+<body>
+<div class="guide-container">
+    <!-- Title card with icon and QR scan hint already integrated in step 1 -->
+    <div class="title-card">
+        <h1>Guidelines for appointment booking<br> at Shenzhen Pingle Orthopedic Hospital via WeChat</h1>       
+        <!-- subtle note: scan QR is step 1, so we don't need extra duplication -->
+    </div>
+
+    <!-- STEP 1 : Scan QR code -->
+    <div class="step-card">
+        <div class="step-header">
+            <span class="step-number">1</span>
+            <h3>Type 深圳平乐骨伤科医院 in WeChat and follow the account</h3>
+        </div>
+        <div class="image-wrapper">
+            <img src="../images/PLOH/1.jpg" alt="Account for HKU-SZH" width="250" height="250" loading="lazy">
+        </div>
+        <div class="hint">
+            <i class="fab fa-weixin wechat-icon"></i>
+            <span>Open WeChat → 深圳平乐骨伤科医院 → follow the official account</span>
+        </div>
+    </div>
+
+    <!-- STEP 2 : Tap on services -->
+    <div class="step-card">
+        <div class="step-header">
+            <span class="step-number">2</span>
+            <h3>Tap on <span style="background:#eef3f8; padding:0.2rem 0.6rem; border-radius:30px;">用户设置</span> </h3>
+        </div>
+        <div class="image-wrapper">
+            <img src="../images/PLOH/2.jpg" alt="WeChat services menu" width="250" height="250" loading="lazy">
+        </div>
+    </div>
+
+    <!-- STEP 3 : 普通门诊 -->
+    <div class="step-card">
+        <div class="step-header">
+            <span class="step-number">3</span>
+            <h3>You may have to supply a one-time password. Add 00852 before your HK number</h3>
+        </div>
+        <div class="image-wrapper">
+            <img src="../images/PLOH/3.jpg" alt="Medical services options" width="250" height="450" loading="lazy">
+        </div>
+    </div>
+
+    <!-- STEP 4 : Add patient -->
+    <div class="step-card">
+        <div class="step-header">
+            <span class="step-number">4</span>
+            <h3>Tap on the section indicated by the red rectangle</h3>
+        </div>
+        <div class="image-wrapper">
+            <img src="../images/PLOH/4.jpg" alt="Homepage add patient" width="250" height="500" loading="lazy">
+        </div>
+    </div>
+
+    <!-- STEP 5 : details filled + Appointment tap -->
+    <div class="step-card">
+        <div class="step-header">
+            <span class="step-number">5</span>
+            <h3>Fill details. Use HKID as the identity document</h3>
+        </div>
+        <div class="image-wrapper">
+            <img src="../images/PLOH/6.jpg" alt="Patient details form" width="250" height="500" loading="lazy">
+        </div>
+		<div class="image-wrapper">
+            <img src="../images/PLOH/5.jpg" alt="Patient details form" width="250" height="500" loading="lazy">
+        </div>
+    </div>
+
+    <div class="step-card">
+        <div class="step-header">
+            <span class="step-number">6</span>
+            <h3>Confirm details. Need to supply a one-time password</h3>
+        </div>
+        <div class="image-wrapper">
+            <img src="../images/PLOH/7.jpg" alt="Tap appointment from homepage" width="250" height="500" loading="lazy">
+    </div>
+    
+    <!-- STEP 6 : department + subdept -->
+    <div class="step-card">
+        <div class="step-header">
+            <span class="step-number">6</span>
+            <h3>Patient information will be shown next</h3>
+        </div>
+        <div class="image-wrapper">
+            <img src="../images/PLOH/8.jpeg" alt="Department selection" width="250" height="500" loading="lazy">
+        </div>
+    </div>
+	
+    <!-- STEP 6 : department + subdept -->
+    <div class="step-card">
+        <div class="step-header">
+            <span class="step-number">6</span>
+            <h3>Go to the main page. Tap on Services, then tap on the section indicated by the red rectangle</h3>
+        </div>
+        <div class="image-wrapper">
+            <img src="../images/PLOH/10.jpeg" alt="Department selection" width="250" height="500" loading="lazy">
+        </div>
+    </div>
+
+    <!-- STEP 6 : department + subdept -->
+    <div class="step-card">
+        <div class="step-header">
+            <span class="step-number">6</span>
+            <h3>Tap on the green button</h3>
+        </div>
+        <div class="image-wrapper">
+            <img src="../images/PLOH/11.jpeg" alt="Department selection" width="250" height="500" loading="lazy">
+        </div>
+    </div>
+	
+    <!-- STEP 6 : department + subdept -->
+    <div class="step-card">
+        <div class="step-header">
+            <span class="step-number">6</span>
+            <h3>Select a doctor and press on the green button next to their name</h3>
+        </div>
+        <div class="image-wrapper">
+            <img src="../images/PLOH/12.jpeg" alt="Department selection" width="250" height="500" loading="lazy">
+        </div>
+    </div>
+	
+    <div class="step-card">
+        <div class="step-header">
+            <span class="step-number">6</span>
+            <h3>Select a day and session</h3>
+        </div>
+        <div class="image-wrapper">
+            <img src="../images/PLOH/13.jpeg" alt="Department selection" width="250" height="500" loading="lazy">
+        </div>
+    </div>
+
+    <div class="step-card">
+        <div class="step-header">
+            <span class="step-number">6</span>
+            <h3>Select a time slot</h3>
+        </div>
+        <div class="image-wrapper">
+            <img src="../images/PLOH/14.jpeg" alt="Department selection" width="250" height="500" loading="lazy">
+        </div>
+    </div>
+
+    <div class="step-card">
+        <div class="step-header">
+            <span class="step-number">6</span>
+            <h3>Tap on the button on the left to agree. Tap on the green button to pay</h3>
+        </div>
+        <div class="image-wrapper">
+            <img src="../images/PLOH/15.jpeg" alt="Department selection" width="250" height="500" loading="lazy">
+        </div>
+    </div>
+
+
+    <!-- STEP 7 : appt date / time slot / payment -->
+    <div class="step-card">
+        <div class="step-header">
+            <span class="step-number">7</span>
+            <h3>Choose an appointment date and time of day</h3>
+        </div>
+        <div class="image-wrapper">
+            <img src="../images/HKUSZH/appt.jpeg" alt="Choose appointment date" width="250" height="500" loading="lazy">
+        </div>
+        <div style="margin:0.8rem 0; display:flex; align-items:center; gap:12px; background:#eef7fa; padding:0.5rem 1rem; border-radius:40px;">
+            <i class="fas fa-clock" style="color:#1c6b93;"></i>
+            <span style="font-weight:500;">Choose the exact time slot</span>
+        </div>
+        <div class="image-wrapper">
+            <img src="../images/HKUSZH/time.jpeg" alt="Select exact time" width="250" height="500" loading="lazy">
+        </div>
+    </div>
+
+    <div class="step-card">
+        <div class="step-header">
+            <span class="step-number">6</span>
+            <h3>Tap <strong>green box</strong> & pay via WeChat to confirm</h3>
+        </div>
+        <div class="image-wrapper">
+            <img src="../images/HKUSZH/payment.jpg" alt="Department selection" width="250" height="500" loading="lazy">
+        </div>
+    </div>
+
+    <!-- General guidelines (enhanced) -->
+    <div class="guidelines-card">
+        <div class="guidelines-title">
+            <i class="fas fa-clipboard-list"></i> 
+            <span>Acknowledgement</span>
+        </div>
+        Shared with gratitude to 9762 9110 for the original screenshots and guidance.
+    </div>
+</div>
+</body>
+</html>
